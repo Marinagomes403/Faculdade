@@ -1,0 +1,45 @@
+body{
+    background-color: aquamarine ;
+    color: aliceblue;
+}
+h1{
+    font-size: 50px;
+    color: aliceblue;
+    font-size: 70px;
+    background-color: rgb(59, 209, 159);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.content{
+    color:  rgb(5, 97, 66);
+    font-size: 23px;
+}
+nav{
+    color:  rgb(59, 209, 159);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: brown;
+    color: bisque;
+}
+.navbar ul{
+    display: flex;
+    gap: 4px;
+    list-style: none;
+}
+header{
+    position: relative;
+}
+header h3{
+    position: absolute;
+    left: calc(50%);
+    transform: translateX(-50%);
+}
+.indie-flower-regular {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+}  
