@@ -1,4 +1,4 @@
-name: 📙 deploy & quality assurance
+name: 🚀 Deploy & Quality Assurance
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
   workflow_dispatch:
 
-permission:
+permissions:
   contents: read
   pages: write
   id-token: write
@@ -17,7 +17,7 @@ concurrency:
 
 jobs:
   deploy:
-    name: 📙 Deploy to Github pages 
+    name: 🚀 Deploy to Github pages
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
     outputs:
@@ -28,15 +28,17 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-    - name: 📤 Checkout code
-      uses: actions/checkout@v4
+      - name: 📥 Checkout code
+        uses: actions/checkout@v4
 
-    - name: 📄 setub Pages
-      uses: action/configure-pages@v4
+      - name: 📄 Setup Pages
+        uses: actions/configure-pages@v4
 
-    - name: 📬 upload artifact
-      uses: actions/upload-pages-artifact@v3
+      - name: 📦 Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."
 
-    - name: 📙 Deploy to gitHub Pages
-      id: deployment
-      uses: actions/deploy-pages@4
+      - name: 🚀 Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
