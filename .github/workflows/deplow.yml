@@ -3,7 +3,7 @@ name: 📙 deploy & quality assurance
 on:
   push:
     branches:
-   - main
+      - main
   workflow_dispatch:
 
 permission:
@@ -12,7 +12,7 @@ permission:
   id-token: write
 
 concurrency:
-  group: ${{github.workflow}}-${{github.ref}}
+  group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
@@ -30,7 +30,6 @@ jobs:
     steps:
     - name: 📤 Checkout code
       uses: actions/checkout@v4
-
 
     - name: 📄 setub Pages
       uses: action/configure-pages@v4
