@@ -81,6 +81,14 @@ button{
     border-radius: 4px;
     cursor: pointer;
 }
+footer{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: brown;
+    color: bisque;
+    font-size: 18px;
+}
 ul{
     font-size: 20px;
 }}
