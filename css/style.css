@@ -38,6 +38,7 @@ header h3{
     position: absolute;
     left: calc(50%);
     transform: translateX(-50%);
+    background-color: salmon;
 }
 .indie-flower-regular {
     font-family: "Indie Flower", cursive;
@@ -52,7 +53,6 @@ h2{
     color: black;
     background-color: salmon;
     font-size: 30px;
-    background-size: 20px;
 }
 
 fieldset{
@@ -80,4 +80,7 @@ button{
     padding: 8px 12px;
     border-radius: 4px;
     cursor: pointer;
+}
+h5{
+    background-color: salmon;
 }}
