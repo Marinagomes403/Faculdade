@@ -1,17 +1,18 @@
 body{
     background-color: rgb(255, 255, 255) ;
     color: aliceblue;
+    font-family: 'Indie Flower', cursive;
 }
 h1{
     font-size: 80px;
     color: aliceblue;
-    font-size: 70px;
+    font-size: 50px;
     background-color: rgb(212, 16, 16);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .content{
     color:  rgb(0, 0, 0);
-    font-size: 50px;
+    font-size: 30px;
 }
 .area{
     color:  rgb(207, 9, 9);
@@ -68,4 +69,12 @@ legend{
 label{
     color: black;
 }
-}
+button{
+    margin-top: 10px;
+    background-color: brown;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}}

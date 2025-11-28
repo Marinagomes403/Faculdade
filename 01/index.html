@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./../css/style.css">
 </head>
 
-<body>
+<body class="indie-flower-regular">
 
     <h1>Medicina 🏥</h1>
 
@@ -25,19 +25,21 @@
     </nav><br>
 
     <h2>Formulário 🗒️</h2>
-
-    <fieldset>
+<div class="content"><fieldset>
         <legend>informações pessoais</legend>
         <div>
-            <label>Nome:<br>
-                <input type="text" id="Nome">
-            </label>
+            <label>Nome <br>
+                 <input type="text" id="name"></label><br>
+    <button onclick="enviar()">Enviar</button>
         </div>
         <label>Idade<br>
             <input type="number" id="Idade">
+    <button onclick="enviar()">Enviar</button>
         </label>
     </fieldset><br>
     <footer>Feito por: @Marina Gomes da Paixão</footer>
+</div>
+    
 </body>
 
 </html>
