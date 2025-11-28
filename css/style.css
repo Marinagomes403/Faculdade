@@ -82,11 +82,9 @@ button{
     cursor: pointer;
 }
 footer{
-    text-align: center;
     margin-top: 20px;
     padding: 10px;
-    background-color: brown;
-    color: bisque;
+    color: rgb(0, 0, 0);
     font-size: 18px;
 }
 ul{
