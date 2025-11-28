@@ -38,7 +38,7 @@ header h3{
     position: absolute;
     left: calc(50%);
     transform: translateX(-50%);
-    background-color: salmon;
+    background-color: rgb(255, 167, 158);
 }
 .indie-flower-regular {
     font-family: "Indie Flower", cursive;
@@ -51,7 +51,7 @@ p{
 
 h2{
     color: black;
-    background-color: salmon;
+    background-color: rgb(255, 169, 159);
     font-size: 30px;
 }
 
